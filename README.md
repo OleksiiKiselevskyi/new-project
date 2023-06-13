@@ -24,3 +24,21 @@ Note: GitHub no longer supports authorization in terminal via login and password
 `git add .`
 
 `git commit -am 'Added "development" branch'`
+
+6. Switch back to main branch and merge "development" branch into it.
+
+`git switch main`
+
+`git merge development`
+
+7. Add and commit changes.
+
+`git add .`
+
+`git commit -am '"Development" branch merged'`
+
+8. Add your GitHub repository as remote and push to it.
+
+`git remote add origin https://github.com/<your_GitHub_account_name>/new-project.git`
+
+`git push -u origin main`
