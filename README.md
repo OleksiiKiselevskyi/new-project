@@ -12,3 +12,15 @@ Note: GitHub no longer supports authorization in terminal via login and password
 `cd new-project`
 
 `git init`
+
+4. Create "development" branch and switch to it.
+
+`git branch development`
+
+`git switch development`
+
+5. Add and commit changes.
+
+`git add .`
+
+`git commit -am 'Added "development" branch'`
