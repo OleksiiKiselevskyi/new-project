@@ -42,3 +42,5 @@ Note: GitHub no longer supports authorization in terminal via login and password
 `git remote add origin https://github.com/<your_GitHub_account_name>/new-project.git`
 
 `git push -u origin main`
+
+`git push -u origin development`
